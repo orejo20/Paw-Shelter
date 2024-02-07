@@ -1,0 +1,35 @@
+h2{
+	margin-top: 100px;
+	font-size: 30px;
+	background-color: #E5AA41;
+	color: white;
+	width: 700px;
+	height: 40px;
+	border: none;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.tips {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+}
+
+hr {
+	border: 1px solid grey;
+}
+
+.tips p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+dt {
+	margin-top: 10px;
+	font-weight: bold;
+}

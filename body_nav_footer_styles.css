@@ -1,0 +1,99 @@
+body {
+    font-family: Montserrat;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #E5AA41;
+	border-radius: 10px;
+}
+
+
+
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	width: 90%;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+.nav img {
+	width: 60px;
+	margin: 5px 30px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav h1 {
+	margin-right: 120px;
+	font-size: 30px;
+}
+
+.nav .nav-buttons {
+	display: flex; 
+}
+
+.nav-buttons a {
+	margin-right: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav-buttons img {
+	position: absolute;
+	width: 30px;
+	margin-top: -5px;
+}
+
+.nav-buttons a.active {
+    border-bottom: 3px solid #E5AA41;
+}
+
+.nav-buttons a:hover {
+    border-bottom: 3px solid #E5AA41;
+    transition: border-bottom 0.5s;
+}
+
+
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	position: fixed;
+    bottom: 0;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.footer p {
+	font-weight: bold;
+	margin-right: 100px;
+}
+
+.footer img {
+	width: 30px;
+	margin-right: 20px;
+}
